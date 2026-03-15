@@ -1,6 +1,6 @@
 import React from 'react';
 import { useGameStore } from '../../store/useGameStore';
-import { Clock, TrendingUp, Wallet, ArrowUpRight, ArrowDownRight } from 'lucide-react';
+import { Clock, TrendingUp, Wallet } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Header: React.FC = () => {

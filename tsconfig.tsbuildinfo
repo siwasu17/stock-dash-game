@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/components/realtimechart.tsx","./src/components/layout/header.tsx","./src/components/market/marketcard.tsx","./src/components/trading/tradingsidebar.tsx","./src/hooks/usegameloop.ts","./src/store/usegamestore.ts","./src/types/game.ts"],"version":"5.9.3"}

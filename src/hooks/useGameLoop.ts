@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { useGameStore } from '../store/useGameStore';
 
 export const useGameLoop = () => {
-  const { gameStatus, tickTimer, updatePrices, orders, executeOrder } = useGameStore();
+  const { gameStatus, tickTimer, updatePrices, executeOrder } = useGameStore();
   const timerRef = useRef<number | null>(null);
 
   useEffect(() => {
